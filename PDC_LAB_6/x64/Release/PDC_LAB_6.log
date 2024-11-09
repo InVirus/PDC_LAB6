@@ -1,0 +1,6 @@
+﻿  Source.cpp
+  Создание кода
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 179 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  PDC_LAB_6.vcxproj -> C:\Users\Vlad\source\repos\PDC_LAB_6\x64\Release\PDC_LAB_6.exe

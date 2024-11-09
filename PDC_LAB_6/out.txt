@@ -1,0 +1,20 @@
+Matrix sumizhnosti:
+0 1 1 1 
+1 0 1 0 
+1 1 0 1 
+1 0 1 0 
+Matrix incydentnosti:
+1 0 0 -1 1 
+-1 1 0 0 0 
+0 -1 1 0 -1 
+0 0 -1 1 0 
+Matrix sumizhnosti:
+0 1 1 1 
+1 0 1 0 
+1 1 0 1 
+1 0 1 0 
+Matrix incydentnosti:
+1 0 0 -1 1 
+-1 1 0 0 0 
+0 -1 1 0 -1 
+0 0 -1 1 0 
