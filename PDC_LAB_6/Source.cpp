@@ -11,11 +11,10 @@ void loadGraph(const string& filename, int& n, int& m, int**& edges) {
     }
 
     inputFile >> n >> m;
-
-    // Перевірка на некоректні значення кількості вершин і ребер
+    
     if (n <= 0 || m <= 0) {
         cout << "Invalid number of vertices or edges." << endl;
-        n = 0; // Оновлюємо n і m для коректної обробки в тестах
+        n = 0; 
         m = 0;
         return;
     }
@@ -26,13 +25,12 @@ void loadGraph(const string& filename, int& n, int& m, int**& edges) {
         inputFile >> edges[i][0] >> edges[i][1];
 
         if (edges[i][0] <= 0 || edges[i][1] <= 0) {
-            cout << "Invalid edge data: " << edges[i][0] << " " << edges[i][1] << endl;
-            // Звільняємо ресурси, якщо виникає помилка
+            cout << "Invalid edge data: " << edges[i][0] << " " << edges[i][1] << endl;        
             for (int j = 0; j < i; ++j) {
                 delete[] edges[j];
             }
             delete[] edges;
-            edges = nullptr;  // Вказуємо, що немає коректних даних
+            edges = nullptr;  
             return;
         }
     }
